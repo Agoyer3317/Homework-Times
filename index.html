@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Timers</title>
+  <!-- boostrap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+<body>
+  <h1>Totally Trivial Trivia</h1>
+<button id="start">Start</button>
+
+<div >
+    <h2 id="timer"></h2>
+</div>
+
+<div id="outer-question">
+    <form id="questions">
+      
+      
+    </form> 
+</div>
+<div id="incorrectAnswers"></div>
+<div id="unansweredQuestions"></div>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="timers.js"></script>
+</body>
+</html>
+
+<!-- Needs = 
+    - Start button
+    - timer counting down
+    - Quesions with answers 
+        -answers need a section of four with fillable fields to slect
+    - Ending page that shows
+        - correct answers total
+        - incorrect answers total
+        - unanswered total
+
+Outline
+ - On the home screen 
+    - click the start button, 
+    - on that click, the star button is hidden and the questions appear
+
+- Answers show up and the time starts counting down from 30
+- Select the questions to the answers
+- When time runs out, hide that page and have new page appear
+- populate dives with:
+    - # of correct answers
+    - # of incorrect answers
+    - # of unanswered questions
+- have the game start over   -->
+
+<!-- // To make the code for the timer appear in a paragraph (or anywhere else on the page), just put the line:
+<span id="timer"></span> -->
